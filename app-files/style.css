@@ -828,3 +828,16 @@ body.view-control-buttons .viewControlButton {
 .viewControlButton-6 {
   margin-left: 105px;
 }
+body::before {
+  content: "";
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  width: 180px;
+  height: 80px;
+  background-image: url('../SERGIODIAZLOGO2026.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 9999;
+  pointer-events: none;
+}
